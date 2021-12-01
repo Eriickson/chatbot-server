@@ -1,6 +1,6 @@
 import { Schema, model } from 'mongoose';
 
-class Product {
+export class Product {
   _id: string;
   title: string;
   colors: string[];
